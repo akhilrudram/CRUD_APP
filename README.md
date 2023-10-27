@@ -12,8 +12,7 @@ This is a CRUD (Create, Read, Update, Delete) application for managing doctors. 
 - **Backend:**
   - Node.js
   - Express.js
-  - MongoDB (or any other database of your choice)
-
+  - MongoDB 
 ## Features
 
 - **Create:** Add a new doctor with details such as name, specialty, contact information, etc.
