@@ -8,7 +8,11 @@ const app = express();
 const db = require('./server/database/connection');
 
 app.use(cors());
-  
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong!');
+  });
 //log request
 app.use(morgan('tiny'));
 
