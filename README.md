@@ -53,11 +53,11 @@ This is a CRUD (Create, Read, Update, Delete) application for managing doctors. 
    npm start
    ```
 
-   The app will be running at `http://localhost:3000`.
+   The app will be running at `http://localhost:5000`.
 
 ## Usage
 
-1. Access the application in your web browser at `http://localhost:3000`.
+1. Access the application in your web browser at `https://medisyncelite.onrender.com/`.
 2. Use the provided interface to perform CRUD operations on doctors.
 
 ## Contributing
